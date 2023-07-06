@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <h1 class="logo">LOGO</h1>
+        </div>
+        <div class="menu-container">
+          <a href="#" class="menu-container-item">Homepage</a>
+          <a href="#" class="menu-container-item">Movies</a>
+          <a href="#" class="menu-container-item">Series</a>
+          <a href="#" class="menu-container-item">My List</a>
+          <a href="#" class="menu-container-item">Popular</a>
+        </div>
+        <div class="profile-container">
+          <div class="profile-picture">
+            <img src="images/profile.jpg" alt="" width="100" />
+          </div>
+          <div class="profile-text-container">
+            <span class="profile-text">My Profile</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Sidebar-->
+    <div class="sidebar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-house"></i>
+      <i class="fa-solid fa-users"></i>
+      <i class="fa-regular fa-bookmark"></i>
+      <i class="fa-solid fa-hourglass-start"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-sharp fa-solid fa-gear"></i>
+    </div>
+    <!-- content-->
+
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="featured-content">
+          <img src="images/logo.png" alt="" class="featured-title" />
+          <p class="featured-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+            quos totam in, magnam praesentium fugit ducimus a maxime
+            reprehenderit dignissimos rem placeat, delectus ipsum! Dolor quidem
+            eaque necessitatibus earum non excepturi vitae debitis quisquam,
+            nihil quaerat quia fugit at voluptatem, ab, impedit tempora. Vitae
+            consectetur asperiores dolorum possimus accusantium neque et tempora
+            minus. Ipsa porro vitae exercitationem quisquam, dolor expedita.
+          </p>
+          <div class="featured-buttons">
+            <button class="play-button">
+              <i class="fa-solid fa-play"></i>
+              Play
+            </button>
+            <button class="info-button">
+              <i class="fa-solid fa-circle-info"></i>
+              For More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-list-filter">
+        <select>
+          <option>Action</option>
+          <option>Comedy</option>
+          <option>Drama</option>
+          <option>Fantasy</option>
+          <option>Animation</option>
+          <option>Horror</option>
+          <option>Science Fiction</option>
+          <option>Romance</option>
+        </select>
+      </div>
+      <!--Movie list -->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Popular</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img src="images/popular1.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">HARRY POTTER</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+
+            <li class="movie-item">
+              <img src="images/popular.2.JPG" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">JOKER</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/popular.3.webp" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">BATMAN</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/popular.4.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">SPIDERMAN</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/popular.5.webp" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">TITANIC</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/popular.6.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">JAWS</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+                <img src="images/popular7.webp" alt="" class="movie-item-img" />
+                <div class="movie-item-info">
+                  <span class="movie-item-title">GREEN MILE</span>
+                  <div class="movie-item-buttons">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </li>
+          </ul>
+          <i class="fa-solid fa-arrow-right arrow"></i>
+        </div>
+      </div>
+
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Movies</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img src="images/movie.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">OCTOBER BABY</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+
+            <li class="movie-item">
+              <img src="images/movie1.webp" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">UP</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/movie2.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">INTERSTELLAR</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/movie6.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">FIVE FEET APART</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/movie4.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">BEFORE I FALL</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/movie5.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">MY SISTERS' KEEPER</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+                <img src="images/movie7.jpg" alt="" class="movie-item-img" />
+                <div class="movie-item-info">
+                  <span class="movie-item-title">CATS AND DOGS</span>
+                  <div class="movie-item-buttons">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </li>
+          </ul>
+          <i class="fa-solid fa-arrow-right arrow"></i>
+        </div>
+      </div>
+
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Series</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img src="images/series1.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">FRIENDS</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+
+            <li class="movie-item">
+              <img src="images/series2.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title"
+                  >HOW TO GET AWAY WITH MURDER?</span
+                >
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/series3.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">OZARK</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/series4.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">ANNE WİTH AN 'E'</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/series5.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">PEAKY BLINDERS</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/series6.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">BREAKING BAD</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+                <img src="images/series7.jpg" alt="" class="movie-item-img" />
+                <div class="movie-item-info">
+                  <span class="movie-item-title">MINDHUNTER</span>
+                  <div class="movie-item-buttons">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </li>
+          </ul>
+          <i class="fa-solid fa-arrow-right arrow"></i>
+        </div>
+      </div>
+
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Animation</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img src="images/animation1.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">TURNING RED</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+
+            <li class="movie-item">
+              <img src="images/animation2.webp" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">LUCA</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/animation3.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">RATATOILLE</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/animation4.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">ZOOTOPIA</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/animation4.webp" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">INSIDE OUT</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img src="images/animation5.jpg" alt="" class="movie-item-img" />
+              <div class="movie-item-info">
+                <span class="movie-item-title">THE LION</span>
+                <div class="movie-item-buttons">
+                  <i class="fa-solid fa-circle-play"></i>
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <i class="fa-solid fa-thumbs-down"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+                <img src="images/animation7.png" alt="" class="movie-item-img" />
+                <div class="movie-item-info">
+                  <span class="movie-item-title">PUSS IN BOOTS</span>
+                  <div class="movie-item-buttons">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <i class="fa-solid fa-thumbs-down"></i>
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+                </div>
+              </li>
+          </ul>
+          <i class="fa-solid fa-arrow-right arrow"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
