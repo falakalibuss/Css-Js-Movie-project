@@ -15,4 +15,4 @@ Html and Css and Javascript used for this project.
 
 <h3> the Screen of the project</h3>
 
-![](movie-project.gif)
+![](movie-screen.gif)
